@@ -1,64 +1,54 @@
-* /*added css to my header and a hover*/
-{ 
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*redid my css. added a background image to header. shadowed the header and links*/
 body {
-    background-color: cyan;
+    background-color: white;
 }
-
 .header {
- padding: 20px;
- font-family: sans-serif;
- background-color: dimgrey;
- font-size: 25px;
+    background-image: url("../images/coding.jpg");
+    width: 100%;
+    height: 200px;
+    padding-top: 4%;
+    padding-left: 2%;
+    color: white;
 }
-
 .header h1 {
     display: inline-block;
-}
+    font-size: 60px;
+    text-shadow: 10px 10px black ;
+   }
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    text-shadow: 8px 8px black;
+}  
 
 .header div {
-     float: right;
-     font-family: sans-serif;
-     margin-right: 25px;
-     font-size: 25px;
-}
-
-.header div ul li{
-    display: inline-block;
-    margin-left: 20px;
-}
-.header div ul li :hover {
-    color: white;
-    font-size: 30px;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-/*added some color and resized my picture */
-p { 
-    font-size: 20px;
-    font-weight: bold;
-   text-align: right;
-    width: 400px;
-}
-
-.about-me img {
- display:block;
- margin: 20px;
-
-
-}
-
-.float-right {
     float: right;
-    margin: 25px;
-    border-style: solid;
-    border-color: black;
-    height: 250px;
-    width: 250px;
+    font-size: 40px;
+    margin-right: 5%;
+}
+
+.header div ul li {
+   display: inline-block;
+}
+
+.header ul li :hover {
+    font-size: 50px;
+    color: red;
+}
+.learn-to-code {
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+}
+/*resized picture to fit in about me*/
+.me {
+    height: 120px;
+    width: 120px;
+    margin-left: 150px;
 }
