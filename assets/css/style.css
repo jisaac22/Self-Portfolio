@@ -195,8 +195,13 @@ border: 5px solid white ;
     width: 50px;
 }
 .refactor {
-    color: gold;
+    color: black;
     text-shadow: none;
+    font-size: 50px;
+    text-decoration: underline ;
+}
+.refactor:hover {
+    color: gold;
     font-size: 50px;
 }
 /*contact and social properties*/
