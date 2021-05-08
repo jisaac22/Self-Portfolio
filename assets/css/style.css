@@ -5,7 +5,7 @@
 }
 /*redid my css. added a background image to header. shadowed the header and links*/
 body {
-    background-color: white;
+    background-color: black;
 }
 .header {
     background-image: url("../images/coding.jpg");
@@ -51,4 +51,74 @@ a {
     height: 120px;
     width: 120px;
     margin-left: 150px;
+    visibility: hidden;
+  
+}
+.About-me {
+    background-image: url("../images/code.jpg");
+    border-style: groove;
+    border-color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+h2  {
+    text-align: center;
+   color: yellow; 
+  font-size: 50px;}
+h3 {
+    color: white;
+    text-align: center;
+}  
+p {
+    color: white ;
+    font-size: 25px;
+    text-shadow: 6px 6px black ;
+    font-weight: bolder;
+    visibility: hidden;
+}
+.About-me:hover .me {
+    visibility: visible;
+}
+.About-me:hover .visibility {
+    visibility: visible;
+}
+.future {
+margin-top: 60px;
+width: 97%;
+height: 300px;
+margin-left: 20px;
+}
+.button {
+font-size: 40px;
+background-color: black;
+color: white;
+margin-left: 44%;
+margin-top: 2%;
+}
+.Projects {
+display: flex;
+justify-content: space-around;
+}
+
+.container-1 {
+    width: 200px;
+    margin: 10px;  
+    border: 5px solid  white;
+    background-color: gray;
+}
+.box-1 {
+    height: 400px;
+    width: 400px;
+
+}
+.box-2 {
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/future.jpg");
+}
+.box-3 {
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/coming-soon2.jpg");
 }
