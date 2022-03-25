@@ -8,9 +8,11 @@
  4. Link for live page 
 
 ### Screenshots of website
- 1. ![Screenshot (10)](https://user-images.githubusercontent.com/82920643/117556037-63897580-b02a-11eb-8e9e-266d048cfd5a.png)
- 2. ![Screenshot (11)](https://user-images.githubusercontent.com/82920643/117556055-80be4400-b02a-11eb-86d8-da4d7565dc42.png)
- 3. ![Screenshot (12)](https://user-images.githubusercontent.com/82920643/117556065-8d429c80-b02a-11eb-882c-ab75ab313368.png)
+1. ![2022-03-25 (1)](https://user-images.githubusercontent.com/82920643/160064093-96176c15-711d-414d-b11f-bfa888c0f4ea.png)
+
+2. ![2022-03-25 (2)](https://user-images.githubusercontent.com/82920643/160064146-f1429e56-a054-46e3-9a79-b3f3ed16af85.png)
+
+3. ![2022-03-25](https://user-images.githubusercontent.com/82920643/160064188-18c92697-5305-4b4c-b730-e49197d2e2f2.png)
 
 
 #### Live Page 
