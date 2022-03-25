@@ -3,29 +3,25 @@
     padding: 0;
     margin: 0;
 }
-/*redid my css. added a background image to header. shadowed the header and links*/
 body {
-    background-color: black;
+  background-image: linear-gradient(rgba(15, 15, 15, 0.863), rgba(0, 0, 0, 0.651))
 }
 .header {
-    background-image: url("../images/coding.jpg");
     width: 100%;
     height: 200px;
     padding-top: 4%;
     padding-left: 2%;
     color: white;
+    border: 3px white solid;
 }
 .header h1 {
     display: inline-block;
     font-size: 60px;
-    text-shadow: 10px 10px black ;
    }
 h1::after {
     content: 'Jacob Sierra';
-    color: blue;
     font-size: 55px;
     margin-left: 15px;
-    text-shadow: 5px 5px black;
 }  
 .factor {
     font-size: 20px;
@@ -34,7 +30,6 @@ a {
     color: white;
     text-decoration: none;
     margin: 10px;
-    text-shadow: 8px 8px black;
 }  
 
 .header nav {
@@ -49,82 +44,50 @@ a {
 
 .header ul li :hover {
     font-size: 50px;
-    color: red;
 }
-.learn-to-code {
-    height: 500px;
-    width: 100%;
-    margin-top: 100px;
-}
-/*resized picture to fit in about me*/
 .me {
     height: 120px;
     width: 120px;
     margin-left: 150px;
-    visibility: hidden;
   
 }
-/*properties for about me section*/
 .About-Me {
     margin-top: 80px;
-    background-image: url("../images/code.jpg");
-    border-style: groove;
-    border-color: white;
-    width: 80%;
-    margin-left: 10%;
+    width: 45%;
+    margin-left: 25%;
     height: 100%;
 }
 .About-Me h2 {
-   
-    color: yellow;
     font-size: 50px;
     text-align: center;
 }
-.My-Projects h2 {
-    text-align: center;
-   color: yellow; 
+.My-Projects {
+  margin-top: 100px;
+  text-align: center;
   font-size: 50px;
 }
-.About-Me h3 {
-    color: white;
-    text-align: center;
-}  
 p {
-    color: white ;
-    font-size: 25px;
-    text-shadow: 6px 6px black ;
-    font-weight: bolder;
-    visibility: hidden;
+  color: white ;
+  font-size: 25px;
+  font-weight: bolder;
 }
-.About-Me:hover .me {
-    visibility: visible;
-}
-.About-Me:hover .visibility {
-    visibility: visible;
-}
-/*section for my projects*/
 .future {
-margin-top: 150px;
-width: 97%;
-height: 300px;
-margin-left: 20px;
-border: 10px solid white ;
+  margin-top: 150px;
+  width: 97%;
+  height: 300px;
+  margin-left: 20px;
 }
-
 .My-Projects h2 {
-    margin-top: 20px;
-    font-size: 50px;
-    color: black;
-    background-color: darkslategray;
-    border: 5px double white;
-    text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  color: black;
+  text-align: center;
 }
 
 .Projects {
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
-border: 5px solid white ;
 }
 
 .container-1 {
@@ -138,7 +101,6 @@ border: 5px solid white ;
     width: 400px;
     font-size: 25px;
     text-align: justify;
-    background-image: url('../images/project1.0.jpg.png');
 }
 .box-1 p {
     visibility: visible;
@@ -149,7 +111,6 @@ border: 5px solid white ;
 .box-2 {
     height: 400px;
     width: 400px;
-    background-image: url('../images/popquiz.png');
     font-size: 30px;
 }
 .box-2 p {
@@ -163,15 +124,12 @@ border: 5px solid white ;
 .box-3 {
     height: 400px;
     width: 400px;
-    background-image: url('../images/passwrd.png');
-    
 }
 .box-3 p {
     visibility: visible;
     font-size: 25px;
     text-align: center;
     color: black;
-    text-shadow: none;
     margin-top: 10%;
 }
 .project-1 {
@@ -206,7 +164,6 @@ border: 5px solid white ;
     color: gold;
     font-size: 50px;
 }
-/*contact and social properties*/
 .Contact-Info h3 {
     margin-top: 100px;
     font-size: 50px;
@@ -232,7 +189,7 @@ a.socials {
     font-size: 70px;
     color: red;
 }
-/* footer properties */
+
 .footer {
     color: white;
     text-align: center;
@@ -244,7 +201,7 @@ h5 {
 .box-4{
    height: 400px;
    width: 400px;
-   background-image: url('../images/stormhouse.png');
+
 }
 .box-4 p {
     visibility: visible;
@@ -271,7 +228,6 @@ h5 {
  .box-6{
     height: 400px;
     width: 400px;
-    background-image: url('../images/tracker.png');
  }
 
  .box-6 p {
